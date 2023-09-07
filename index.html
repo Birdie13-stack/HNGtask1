@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>My HNG Task</title>
+  </head>
+  <body>
+    <header>
+      <!-- <h1>Welcome to My HNG Task</h1> -->
+    </header>
+    <main>
+      <section class="profile">
+        <div class="img-container">
+          <img src="img.jpg" alt="Nenye" data-testid="slackDisplayImage" />
+        </div>
+
+        <h1 data-testid="slackUserName" class="name">Chinenye Oluyede</h1>
+      </section>
+      <section class="details">
+        <p>
+          <strong>Current Day of the Week:</strong>
+          <span data-testid="currentDayOfTheWeek" id="date">Monday</span>
+        </p>
+        <p>
+          <strong>Current UTC Time:</strong>
+          <span data-testid="currentUTCTime" id="time">1630934400000</span>
+        </p>
+        <p>
+          <strong>Track:</strong> <span data-testid="myTrack">Frontend</span>
+        </p>
+        <p>
+          <strong>GitHub URL:</strong>
+          <a
+            href="https://github.com/Birdie13-stack/HNGtask1"
+            target="_blank"
+            data-testid="githubURL"
+            >https://github.com/Birdie13-stack/HNGtask1</a
+          >
+        </p>
+      </section>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
